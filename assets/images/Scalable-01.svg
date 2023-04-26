@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 643 632" style="enable-background:new 0 0 643 632;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{opacity:0.1;clip-path:url(#SVGID_4_);}
+	.st2{clip-path:url(#SVGID_6_);fill:#2EC2EB;}
+	.st3{clip-path:url(#SVGID_8_);fill:none;stroke:#BCBEC0;stroke-width:23.3206;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_8_);fill:url(#SVGID_9_);}
+	.st5{clip-path:url(#SVGID_8_);fill:url(#SVGID_10_);}
+	.st6{clip-path:url(#SVGID_12_);fill:none;stroke:#FFFFFF;stroke-width:36.0993;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:36.0993;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st8{clip-path:url(#SVGID_14_);fill:none;stroke:#BCBEC0;stroke-width:25.4596;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{clip-path:url(#SVGID_14_);fill:url(#SVGID_15_);}
+	
+		.st10{clip-path:url(#SVGID_17_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st11{fill:url(#SVGID_18_);}
+	
+		.st12{clip-path:url(#SVGID_20_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:67.4535,43.5168;}
+	
+		.st13{clip-path:url(#SVGID_20_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:67.688,43.7514;}
+	
+		.st14{clip-path:url(#SVGID_20_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_16_" x="62.9" y="56.7" width="517.2" height="518.7"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_16_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<rect x="74.9" y="268" style="clip-path:url(#SVGID_2_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" width="307.9" height="295.3"/>
+</g>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-125.6038" y1="706.7343" x2="-120.8165" y2="706.7343" gradientTransform="matrix(61.7318 0 0 -61.7318 7927.4849 43943.9766)">
+	<stop  offset="0" style="stop-color:#8FC740"/>
+	<stop  offset="1" style="stop-color:#38C6F4"/>
+</linearGradient>
+<path style="fill:url(#SVGID_4_);" d="M447.7,270.7v-85.1l-81.2,0c-5.3,0-9.6-4.3-9.6-9.6c0-5.3,4.3-9.6,9.6-9.6l100.3,0v104.3
+	c0,5.3-4.3,9.6-9.6,9.6C452,280.3,447.7,276,447.7,270.7L447.7,270.7z M178.9,449.3L440,184.1c3.7-3.8,9.8-3.8,13.5-0.1
+	c3.8,3.7,3.8,9.8,0.1,13.5L192.5,462.8c-3.7,3.8-9.8,3.8-13.5,0.1S175.2,453.1,178.9,449.3z"/>
+<g>
+	<defs>
+		<rect id="SVGID_19_" x="62.9" y="56.7" width="517.2" height="518.7"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<line style="clip-path:url(#SVGID_6_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:67.4535,43.5168;" x1="568.1" y1="435.3" x2="568.1" y2="124.1"/>
+	
+		<line style="clip-path:url(#SVGID_6_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:67.688,43.7514;" x1="490.5" y1="68.6" x2="178.1" y2="68.6"/>
+	
+		<path style="clip-path:url(#SVGID_6_);fill:none;stroke:#BCBEC0;stroke-width:23.9366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M122.4,179.8v45 M156.2,68.6h-33.8v45 M568.1,102.4V68.6h-33.8 M527.4,512.5h40.7v-33.7 M429.2,512.5h40.7"/>
+</g>
+</svg>

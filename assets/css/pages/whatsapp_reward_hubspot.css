@@ -1,0 +1,432 @@
+.header-container-wrapper .row-fluid-wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.body-container-wrapper .row-fluid-wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer-container-wrapper .row-fluid-wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.hbspt-form .hs-main-font-element h1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #233659;
+    font-weight: 500;
+}
+
+.hbspt-form .hs-input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height: calc(1.5em + .75rem + 7px);
+    border: 2px solid transparent;
+    color: #17191D;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.hbspt-form select {
+    padding-left: 10px;
+}
+
+.hbspt-form .hs-input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #17191D;
+}
+
+.hbspt-form .hs-input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #17191D;
+}
+
+.hbspt-form .hs-input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #17191D;
+}
+
+.hbspt-form .hs-input:focus {
+    color: #000839;
+    border-color: #000839;
+}
+
+.hbspt-form input[type="radio"],
+.hbspt-form input[type="checkbox"] {
+    height: auto;
+}
+
+.hbspt-form .hs-input:focus {
+    color: #4A4E57;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000C30;
+    outline: none;
+}
+
+.hbspt-form input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: none;
+    outline: none;
+}
+
+.ct-form-box .hbspt-form .hs-input {
+    border-color: #2cc4ec;
+}
+
+.ct-form-box .hbspt-form .hs-input:focus {
+    border-color: #000C30;
+}
+
+.hbspt-form .hs-input .hs-error-msg {
+    margin-bottom: 0px;
+}
+
+.hbspt-form fieldset .input {
+    margin-left: 8px;
+}
+
+.hbspt-form .legal-consent-container .hs-form-booleancheckbox-display p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.hbspt-form .legal-consent-container .hs-form-booleancheckbox-display,
+.hbspt-form .hs_i_have_read_and_agree_to_all_clickatell_s_a_href_terms_conditions_a_and_a_href_terms_of_service_a_ .hs-form-booleancheckbox-display {
+    margin-top: 15px;
+}
+
+.hbspt-form .legal-consent-container .hs-form-booleancheckbox-display>span,
+.hbspt-form .hs_i_have_read_and_agree_to_all_clickatell_s_a_href_terms_conditions_a_and_a_href_terms_of_service_a_ .hs-form-booleancheckbox-display>span {
+    margin-left: 0px;
+}
+
+.hbspt-form .legal-consent-container .hs-form-booleancheckbox-display>span a,
+.hbspt-form .hs_i_have_read_and_agree_to_all_clickatell_s_a_href_terms_conditions_a_and_a_href_terms_of_service_a_ .hs-form-booleancheckbox-display>span a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.hbspt-form .legal-consent-container .hs-form-booleancheckbox-display>span a:hover,
+.hbspt-form .hs_i_have_read_and_agree_to_all_clickatell_s_a_href_terms_conditions_a_and_a_href_terms_of_service_a_ .hs-form-booleancheckbox-display>span a:hover {
+    text-decoration: none;
+}
+
+.hbspt-form .hs_i_have_read_and_agree_to_all_clickatell_s_a_href_terms_conditions_a_and_a_href_terms_of_service_a_ .inputs-list li {
+    display: block;
+    text-align: center;
+}
+
+.hbspt-form .legal-consent-container .inputs-list li {
+    display: block;
+}
+
+.hbspt-form .legal-consent-container .hs-richtext p {
+    font-family: 'Open Sans', sans-serif;
+    color: #000C30;
+}
+
+.hbspt-form .legal-consent-container .hs-richtext p a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #000C30;
+    text-decoration: underline;
+}
+
+.hbspt-form .legal-consent-container .hs-richtext p a:hover {
+    text-decoration: none;
+}
+
+.hbspt-form .legal-consent-container .hs-dependent-field .nputs-list .hs-form-booleancheckbox .hs-form-booleancheckbox-display p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #000C30;
+}
+
+.popup-form .hbspt-form .hs_submit.hs-submit {
+    text-align: center;
+    margin-right: auto;
+}
+
+.hbspt-form select.hs-input option {
+    color: #17191D;
+}
+
+.hbspt-form label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000C30;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+}
+
+.hbspt-form label .hs-form-required {
+    color: #dc3545;
+}
+
+.hbspt-form textarea {
+    height: auto !important;
+    min-height: 100px;
+    padding: 10px 15px;
+}
+
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:not(:checked),
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:not(:checked)+span,
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:checked+span {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:not(:checked)+span:before,
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:checked+span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #000C30;
+}
+
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:not(:checked)+span:after,
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:checked+span:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    width: 16px;
+    height: 16px;
+    background-color: #233659;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border-radius: 3px;
+    color: #ffffff;
+    border: 1px solid #000C30;
+}
+
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:checked+span:after {
+    content: "";
+    background: url("https://f.hubspotusercontent20.net/hubfs/6194477/Canadian%20Banks%20Campaign%20Assets/icons/checkmark-blue.svg") no-repeat center center;
+    display: block;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+}
+
+.hbspt-form .hs-form-booleancheckbox-display .hs-input[type="checkbox"]:not(:checked)+span:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.hbspt-form .hs-error-msg {
+    color: #ffffff;
+    font-size: 85%;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.hbspt-form .hs-input.error {
+    border-color: #ff5801;
+}
+
+.hbspt-form .hs-error-msgs li {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 0px;
+    display: block;
+    overflow-wrap: break-word;
+    background-color: #ff5801;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 0.875rem;
+    color: #fff;
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.hbspt-form .hs-error-msgs li:before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 6px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent #ff5801 transparent;
+}
+
+.legal-consent-container .hs-error-msgs label {
+    color: #ffffff !important;
+}
+
+.hbspt-form .hs-error-msgs li .hs-main-font-element {
+    color: #dc3545;
+    font-size: 65%;
+    font-weight: 400;
+}
+
+.hbspt-form .hs-button {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: normal;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 0px;
+    margin: 0;
+    padding: 10px 12px;
+    transition: all 450ms ease-in-out;
+    -webkit-transition: all 450ms ease-in-out;
+    -moz-transition: all 450ms ease-in-out;
+    -o-transition: all 450ms ease-in-out;
+    cursor: pointer;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.hbspt-form .hs-button.primary {
+    background-color: #000C30;
+    border: 1px solid #000C30;
+    color: #fff;
+}
+
+.hbspt-form .hs-button.primary:hover {
+    background-color: #233659;
+    border-color: #233659;
+}
+
+.hbspt-form .hs-button.primary:focus {
+    background-color: #17365C;
+    border-color: #425E81;
+}
+
+.hbspt-form .hs_submit.hs-submit {
+    margin-right: 0px;
+    text-align: center;
+}
+
+.hbspt-form .hs_submit.hs-submit .btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.hbspt-form label:first-of-type span {
+    display: none;
+}
+
+.hbspt-form label .hs-form-required {
+    display: block;
+}
+
+.hbspt-form .submitted-message p {
+    color: white;
+}
+
+.hbspt-form .submitted-message p a {
+    color: white;
+    text-decoration: underline;
+}
+
+.hbspt-form .submitted-message p a:hover,
+.hbspt-form .submitted-message p a:focus {
+    text-decoration: none;
+}
+
+.hbspt-form .hs_error_rollup {
+    padding-top: 10px;
+}
+
+.hbspt-form .hs_error_rollup .hs-error-msgs .hs-main-font-element {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 85%;
+}
+
+.hs_i_have_read_and_agree_to_all_clickatell_s_a_href_terms_conditions_a_and_a_href_terms_of_service_a_ {
+    width: 100% !important;
+}
+
+.hbspt-form .submitted-message {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 992px) {
+    .hbspt-form fieldset .input {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .ct-form-box .hs_submit {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hbspt-form .hs-button.large {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .hbspt-form fieldset .input {
+        margin-right: 0px;
+        margin-right: 0px;
+    }
+    .hbspt-form .hs-error-msgs li {
+        margin-left: 0px;
+    }
+    .popup-form fieldset.form-columns-2 .hs-form-field {
+        width: 100% !important;
+    }
+    .popup-form .hs-custom-style fieldset {
+        margin-bottom: 0rem;
+    }
+    .popup-form .hbspt-form .legal-consent-container .hs-dependent-field .inputs-list li {
+        margin-left: 8px;
+    }
+    .ct-form-box .hbspt-form fieldset.form-columns-3 .hs-form-field {
+        width: 100%;
+    }
+    .ct-form-box .hbspt-form .hs_submit.hs-submit {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .hbspt-form .hs-button.large {
+        width: 100%;
+    }
+    .hbspt-form .hs_i_have_read_and_agree_to_all_clickatell_s_a_href_terms_conditions_a_and_a_href_terms_of_service_a_ .inputs-list li {
+        text-align: left;
+    }
+}

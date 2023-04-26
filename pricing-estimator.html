@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="theme-color" content="#233659" />
+    <title>Clickatell | Connecting you to customers with SMS and chat</title>
+    <!-- required -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+    <!-- font-family: 'Open Sans', sans-serif; -->
+    <link rel="stylesheet" href="https://use.typekit.net/jig6vex.css">
+    <link href="assets/images/favicon.ico" rel="icon">
+    <link href="assets/vendor/bootstrap-select/css/bootstrap-select.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/all.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/pages/pricing-estimator.css" rel="stylesheet">
+    <!-- required -->
+
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader-section preloader-right"></div>
+        <div class="preloader-section preloader-left"></div>
+        <div class="preloader-icon">
+            <!-- <span class="loading-dot loading-dot-1"></span>
+            <span class="loading-dot loading-dot-2"></span>
+            <span class="loading-dot loading-dot-3"></span> -->
+            <img src="assets/images/loader.svg" alt="Loader" />
+        </div>
+    </div>
+    <!-- <section id="beta-site-bar" class="topbar-green clickatell-green-bg">
+        <div class="container-fluid">
+            <div class="switch-site-content">
+                <p>Welcome to our new beta site! <a href="#">Revert back to our original website</a>
+                </p>
+                <a href="#" class="switch-site-close">
+                    <img src="assets/images/icons/streamline-icon-remove-circle@140x140.svg">
+                </a>
+            </div>
+        </div>
+    </section> -->
+    <header id="header_new" class="navigation"></header>
+
+    <div class="contentarea">
+        <section class="breadcrumb-wrap py-lg-3">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="javascript:void(0);">Platforms</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Pricing estimator</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+        <section class="after-the-storm-bg">
+            <div class="container">
+                <div class="pageheading">
+                    <div class="main-title display-1 text-white">
+                        <h1>Pricing estimator</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="pricing-steps-wrap">
+                <div class="shadow-box">
+                    <div class="ct-tabs">
+                        <div class="ct-tabs-mobile">
+                            <div class="ct-tabs-dropdown d-lg-none d-md-block d-flex" id="tab-title">Step 1 - Countries</div>
+                            <ul class="nav nav-tabs custom-tabs" role="tablist">
+                                <li role="presentation" class="nav-item load-step">
+                                    <a href="#step1" class="nav-link active" data-toggle="tab" aria-controls="step1" role="tab">Step 1 - Countries</a>
+                                </li>
+                                <li role="presentation" class="nav-item load-step">
+                                    <a href="#step2" class="nav-link disabled" data-toggle="tab" aria-controls="step2" role="tab">Step 2 - Reply - ability</a>
+                                </li>
+                                <li role="presentation" class="nav-item load-step">
+                                    <a href="#step3" class="nav-link disabled" data-toggle="tab" aria-controls="step3" role="tab">Step 3 - Message volume & speed</a>
+                                </li>
+                                <li role="presentation" class="nav-item load-step">
+                                    <a href="#step4" class="nav-link disabled" data-toggle="tab" aria-controls="step4" role="tab">Step 4 - Your estimate</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <form role="form">
+                            <div class="tab-content custom-tab-content">
+                                <div class="tab-pane active" role="tabpanel" id="step1">
+                                    <div class="tabe-pane-cont">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="title-desc has-h2 has-paragraph-body">
+                                                    <h2>Step 1: Which countries would you like to send to?</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="d-flex">
+                                                        <label class="form-label" for="">Add multiple countries</label>
+                                                    </div>
+                                                    <select class="selectpicker form-control" title="Search countries">
+                                                            <option>Search countries</option>
+                                                            <option>Option 1</option>
+                                                            <option>Option 2</option>
+                                                        </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 ml-lg-auto">
+                                                <div class="form-group">
+                                                    <div class="d-flex">
+                                                        <label class="form-label" for="">Selected countries</label>
+                                                    </div>
+                                                    <div class="title-desc has-paragraph-body">
+                                                        <p>Your selected countries will appear here</p>
+                                                    </div>
+                                                    <ul class="selected-country-list">
+                                                        <li class="badge badge-pill gainsboro-bg mr-2 mb-2">
+                                                            <img src="assets/images/flags/south-africa-flag-xs.svg" alt="South Africa"> <span>South Africa</span>
+                                                            <a href="#" class="badge-close ml-1"></a>
+                                                        </li>
+                                                        <li class="badge badge-pill gainsboro-bg mr-2 mb-2">
+                                                            <img src="assets/images/flags/south-africa-flag-xs.svg" alt="South Africa"> <span>United States of America</span>
+                                                            <a href="#" class="badge-close ml-1"></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="steps-btn">
+                                            <li class="list-inline-item">
+                                                <button type="button" class="btn btn-primary next-step">Next step</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="step2">
+                                    <div class="tabe-pane-cont">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="title-desc has-h2 has-paragraph-body">
+                                                    <h2>Step 2.1: Would you like your customers to reply?</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="title-desc has-h2 has-paragraph-body">
+                                                    <p>You can select one-way messages, two-way messages (for reply-ability) or both.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price-step-table">
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-3 col-md-12">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Selected countries</h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <ul class="selected-country-list">
+                                                            <li class="badge badge-pill p-0">
+                                                                <a href="#" class="badge-close mr-2"></a>
+                                                                <img src="assets/images/flags/south-africa-flag-xs.svg" alt="South Africa"> <span>South Africa</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>One-way messages <em>(no reply)</em></h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="ct-checkbox">
+                                                            <input type="checkbox" id="checkbox1" name="" value="" checked="">
+                                                            <label for="checkbox1" class="form-check-label">
+                                                                <i></i>
+                                                                <span>One-way messages</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Two-way messages<br>
+                                                            <em>(enable customers to reply)</em></h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="ct-checkbox">
+                                                            <input type="checkbox" id="checkbox2" name="" value="">
+                                                            <label for="checkbox2" class="form-check-label">
+                                                                <i></i>
+                                                                <span>Two-way messages</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-12">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Both <em>(one & two-way messages)</em></h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="ct-checkbox">
+                                                            <input type="checkbox" id="checkbox3" name="" value="">
+                                                            <label for="checkbox3" class="form-check-label">
+                                                                <i></i>
+                                                                <span>Both</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-body-row">
+                                                        <ul class="selected-country-list">
+                                                            <li class="badge badge-pill p-0">
+                                                                <a href="#" class="badge-close mr-2"></a>
+                                                                <img src="assets/images/flags/south-africa-flag-xs.svg" alt="South Africa"> <span>South Africa</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="ct-checkbox">
+                                                            <input type="checkbox" id="checkbox4" name="" value="">
+                                                            <label for="checkbox4" class="form-check-label">
+                                                                <i></i>
+                                                                <span>One-way messages</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="na-enquiry-text">
+                                                            <span>N/A</span>
+                                                            <a href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="Two-way options are currently not available in 'country'">
+                                                                <i class="na-enquiry-icon"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="na-enquiry-text">
+                                                            <span>N/A</span>
+                                                            <a href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="Two-way options are currently not available in 'country'">
+                                                                <i class="na-enquiry-icon"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="hyperlink no-link p-2 mb-4"><a href="#">Add more Countries</a></div>
+                                        </div>
+                                        <br><br>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="title-desc has-h2 has-paragraph-body">
+                                                    <h2>Step 2.2: Two-way messaging options</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="title-desc has-h2 has-paragraph-body">
+                                                    <p>You have opted for two-way messages for some of the countries you selected. Before you can proceed, you need to specify which type of two-way message you would like to implement.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-4 ml-lg-auto">
+                                                <div class="mb-4">
+                                                    <div class="d-flex">
+                                                        <label class="form-label" for="">Select currency</label>
+                                                    </div>
+                                                    <select class="selectpicker form-control" title="ZAR">
+                                                        <option>ZAR</option>
+                                                        <option>USD</option>
+                                                        <option>EUR</option>
+                                                        <option>INR</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price-step-table">
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-3 col-md-12">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Selected two-way message countries</h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <ul class="selected-country-list">
+                                                            <li class="badge badge-pill p-0">
+                                                                <a href="#" class="badge-close mr-2"></a>
+                                                                <img src="assets/images/flags/south-africa-flag-xs.svg" alt="South Africa"> <span>South Africa</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Two-way service</h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="d-flex justify-content-between mb-2">
+                                                            <div class="ct-checkbox">
+                                                                <input type="checkbox" id="checkbox5" name="" value="">
+                                                                <label for="checkbox5" class="form-check-label">
+                                                                    <i></i>
+                                                                    <span>Random shortcode</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="na-enquiry-text">
+                                                                <a href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="Two-way options are currently not available in 'country'">
+                                                                    <i class="na-enquiry-icon"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="ct-checkbox">
+                                                                <input type="checkbox" id="checkbox6" name="" value="">
+                                                                <label for="checkbox6" class="form-check-label">
+                                                                    <i></i>
+                                                                    <span>Long number</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="na-enquiry-text">
+                                                                <a href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="Two-way options are currently not available in 'country'">
+                                                                    <i class="na-enquiry-icon"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Price</h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <div class="col-price-data d-flex">
+                                                            <div class="">
+                                                                <p>Monthly subscription fee</p>
+                                                            </div>
+                                                            <div class="text-right ml-auto pl-2">
+                                                                <b class="oxford-blue-text">$750</b>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-price-data d-flex">
+                                                            <div class="">
+                                                                <p>Cost per reply</p>
+                                                            </div>
+                                                            <div class="text-right ml-auto pl-2">
+                                                                <b class="oxford-blue-text">$FREE</b>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-price-data d-flex">
+                                                            <div class="">
+                                                                <p>Application fee (once off)</p>
+                                                            </div>
+                                                            <div class="text-right ml-auto pl-2">
+                                                                <b class="oxford-blue-text">$100</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-12 align-items-end">
+                                                    <div class="total-text-box caribbean-tropics-bg d-flex flex-column">
+                                                        <div class="total-text-header">
+                                                            <h6>Total</h6>
+                                                        </div>
+                                                        <div class="total-text d-flex flex-column justify-content-center my-auto">
+                                                            <div class="mb-4">
+                                                                <p>Monthly subscription fee</p>
+                                                                <h2>$750</h2>
+                                                            </div>
+                                                            <div class="">
+                                                                <p>Application fee (once off)</p>
+                                                                <h2>$100</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="hyperlink no-link my-4"><a href="#">Download the two-way coverage sheet (CSV) </a></div>
+                                            </div>
+                                        </div>
+                                        <ul class="steps-btn">
+                                            <li class="list-inline-item">
+                                                <button type="button" class="btn btn-primary-outline-none prev-step">Previous step</button>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <button type="button" class="btn btn-primary next-step">Next step</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="step3">
+                                    <div class="tabe-pane-cont">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="title-desc has-h2 has-paragraph-body">
+                                                    <h2>Step 3: How many messages would you like to send?</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="title-desc has-h2 has-paragraph-body">
+                                                    <p>You have opted for two-way messages for some of the countries you selected. Before you can proceed, you need to specify which type of two-way message you would like to implement.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-4 ml-lg-auto">
+                                                <div class="mb-4">
+                                                    <div class="d-flex">
+                                                        <label class="form-label" for="">Select currency</label>
+                                                    </div>
+                                                    <select class="selectpicker form-control" title="ZAR">
+                                                            <option>ZAR</option>
+                                                            <option>USD</option>
+                                                            <option>EUR</option>
+                                                            <option>INR</option>
+                                                        </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price-step-table">
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-3 col-md-12">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Selected two-way message countries</h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row">
+                                                        <ul class="selected-country-list">
+                                                            <li class="badge badge-pill p-0">
+                                                                <a href="#" class="badge-close mr-2"></a>
+                                                                <img src="assets/images/flags/south-africa-flag-xs.svg" alt="South Africa"> <span>South Africa</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="hyperlink no-link p-2"><a href="#">Add more Countries </a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>One-way messages <br> <em>(Volume per month)</em></h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row volume-pm-list-wrap pb-lg-0">
+                                                        <div class="volume-pm-list-col d-flex flex-column">
+                                                            <div class="volume-pm-list">
+                                                                <div class="d-flex justify-content-between mb-2">
+                                                                    <div class="ct-checkbox">
+                                                                        <input type="checkbox" id="checkbox7" name="" value="">
+                                                                        <label for="checkbox7" class="form-check-label">
+                                                                            <i></i>
+                                                                            <span>Standard high quality 
+                                                                                delivery</span>
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="na-enquiry-text">
+                                                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="One-way options are currently not available in 'country'">
+                                                                            <i class="na-enquiry-icon"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="input-group mb-4">
+                                                                    <input type="text" class="form-control" id="" placeholder="e.g. 1500">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">per month</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between mb-2">
+                                                                    <div class="ct-checkbox">
+                                                                        <input type="checkbox" id="checkbox8" name="" value="">
+                                                                        <label for="checkbox8" class="form-check-label">
+                                                                            <i></i>
+                                                                            <span>Time critical delivery</span>
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="na-enquiry-text">
+                                                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="One-way options are currently not available in 'country'">
+                                                                            <i class="na-enquiry-icon"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="input-group mb-4">
+                                                                    <input type="text" class="form-control" id="" placeholder="e.g. 1500">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">per month</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="volume-pm-list-total">
+                                                                <div class="col-msg-total iron-light-bg d-flex">
+                                                                    <div class="">
+                                                                        <p>One-way messages total</p>
+                                                                    </div>
+                                                                    <div class="text-right ml-auto pl-2">
+                                                                        <b class="oxford-blue-text">$123</b>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-step-table-head d-flex align-items-center">
+                                                        <h6>Two-way messages <br> <em>(Volume per month)</em></h6>
+                                                    </div>
+                                                    <div class="price-step-table-body-row volume-pm-list-wrap pb-lg-0">
+                                                        <div class="volume-pm-list-col d-flex flex-column">
+                                                            <div class="volume-pm-list">
+                                                                <div class="d-flex justify-content-between mb-2">
+                                                                    <div class="ct-checkbox">
+                                                                        <input type="checkbox" id="checkbox9" name="" value="">
+                                                                        <label for="checkbox9" class="form-check-label">
+                                                                            <i></i>
+                                                                            <span>Random shortcode</span>
+                                                                        </label>
+                                                                        <div class="change-option"><a href="#">Change</a></div>
+                                                                    </div>
+                                                                    <div class="na-enquiry-text">
+                                                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="left" title="Two-way options are currently not available in 'country'">
+                                                                            <i class="na-enquiry-icon"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="input-group mb-2">
+                                                                    <input type="text" class="form-control" id="" placeholder="e.g. 1500">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">per month</div>
+                                                                    </div>
+                                                                </div>
+                                                                <p>avg. price per message R 0.23993</p>
+                                                            </div>
+                                                            <div class="volume-pm-list-total">
+                                                                <div class="col-msg-total iron-light-bg d-flex">
+                                                                    <div class="">
+                                                                        <p>Two-way messages total</p>
+                                                                    </div>
+                                                                    <div class="text-right ml-auto pl-2">
+                                                                        <b class="oxford-blue-text">$123</b>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-12 align-items-end">
+                                                    <div class="total-text-box caribbean-tropics-bg d-flex flex-column">
+                                                        <div class="total-text-header">
+                                                            <h6>Estimated Total</h6>
+                                                        </div>
+                                                        <div class="total-text d-flex flex-column justify-content-center my-auto">
+                                                            <div class="mb-4">
+                                                                <p>Total messages</p>
+                                                                <h2>1357</h2>
+                                                            </div>
+                                                            <div class="">
+                                                                <p>Total price (monthly)</p>
+                                                                <h2>$100</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="hyperlink no-link mt-4 mb-2"><a href="#">Download the two-way coverage sheet (CSV) </a></div>
+                                                <div class="dot-list">
+                                                    <ul>
+                                                        <li>These prices are estimates only, don't include VAT or other taxes.</li>
+                                                        <li>Actual prices are determined at the time you use the online service e.g. send an SMS message).</li>
+                                                        <li>We will bill you in either USD, EUR, INR, GBP or ZAR (depending on where you are). For your convenience you can choose to see this estimate in a different currency.</li>
+                                                        <li>Please read our Payment terms for more information on how billing works.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="steps-btn">
+                                            <li class="list-inline-item">
+                                                <button type="button" class="btn btn-primary-outline-none prev-step">Previous step</button>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <button type="button" class="btn btn-primary btn-info-full next-step">Next step</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="step4">
+                                    <div class="tabe-pane-cont">
+                                        <div class="title-desc has-h2 has-paragraph-body">
+                                            <h2>You’re done! Here is your estimate</h2>
+                                            <p>Click on the <img src="assets/images/icons/down-chevron.svg"> to see and edit full detail. You can edit the amount by clicking on the line item.</p>
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-4 ml-lg-auto">
+                                                <div class="mb-4">
+                                                    <div class="d-flex">
+                                                        <label class="form-label" for="">Select currency</label>
+                                                    </div>
+                                                    <select class="selectpicker form-control" title="ZAR">
+                                                        <option>ZAR</option>
+                                                        <option>USD</option>
+                                                        <option>EUR</option>
+                                                        <option>INR</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price-step-table">
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-8 col-md-6">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-lg-6">
+                                                            <div class="price-step-table-head d-flex align-items-center">
+                                                                <h6>Countries</h6>
+                                                            </div>
+                                                            <div class="price-step-table-body-row">
+                                                                <ul class="selected-country-list">
+                                                                    <li class="badge badge-pill p-0">
+                                                                        <a href="#" class="badge-close mr-2"></a>
+                                                                        <img src="assets/images/flags/south-africa-flag-xs.svg" alt="South Africa"> <span>South Africa</span>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="price-step-table-head d-flex align-items-center">
+                                                                <h6>Cost breakdown</h6>
+                                                            </div>
+                                                            <div class="price-step-table-body-row pb-lg-0">
+                                                                <div class="ct-collapse">
+                                                                    <div class="accordion" id="accordionExample">
+                                                                        <div class="card">
+                                                                            <div class="card-header" id="headingOne">
+                                                                                <a href="#" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                                                        One-way messages
+                                                                                  </a>
+                                                                            </div>
+                                                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                                                <div class="card-body">
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>44748 messages</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">R 9 092.53</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>Random short code monthly subscription fee</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">R 500</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>Cost per reply</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">FREE</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>Random short code application fee (once-off)</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">R 2 000</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="eerie-black-text mb-2"><b>Estimated total</b></div>
+                                                                                    <div class="col-coast-total iron-light-bg d-flex">
+                                                                                        <div class="">
+                                                                                            <p>Total monthly cost</p>
+                                                                                        </div>
+                                                                                        <div class="ml-auto pl-2">
+                                                                                            <span>$123</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-coast-total iron-light-bg d-flex">
+                                                                                        <div class="">
+                                                                                            <p>Total once-off fee</p>
+                                                                                        </div>
+                                                                                        <div class="ml-auto pl-2">
+                                                                                            <span>$123</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card">
+                                                                            <div class="card-header" id="headingTwo">
+                                                                                <a href="#" class="accordion-title" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                                                        Two-way messages
+                                                                                  </a>
+                                                                            </div>
+                                                                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                                                <div class="card-body">
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>44748 messages</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">R 9 092.53</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>Random short code monthly subscription fee</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">R 500</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>Cost per reply</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">FREE</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-8">
+                                                                                            <p>Random short code application fee (once-off)</p>
+                                                                                        </div>
+                                                                                        <div class="col-4 ml-auto align-self-center">
+                                                                                            <p class="oxford-blue-text text-right">R 2 000</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="eerie-black-text mb-2"><b>Estimated total</b></div>
+                                                                                    <div class="col-coast-total iron-light-bg d-flex">
+                                                                                        <div class="">
+                                                                                            <p>Total monthly cost</p>
+                                                                                        </div>
+                                                                                        <div class="ml-auto pl-2">
+                                                                                            <span>$123</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-coast-total iron-light-bg d-flex">
+                                                                                        <div class="">
+                                                                                            <p>Total once-off fee</p>
+                                                                                        </div>
+                                                                                        <div class="ml-auto pl-2">
+                                                                                            <span>$123</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 align-items-end">
+                                                    <div class="total-text-box caribbean-tropics-bg d-flex flex-column">
+                                                        <div class="total-text-header">
+                                                            <h6>Estimated Total</h6>
+                                                        </div>
+                                                        <div class="total-text d-flex flex-column justify-content-center my-auto">
+                                                            <div class="mb-4">
+                                                                <p>Total monthly cost</p>
+                                                                <h2>1357</h2>
+                                                            </div>
+                                                            <div class="">
+                                                                <p>Total once-off fee</p>
+                                                                <h2>$100</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="hyperlink no-link mt-4 mb-2"><a href="#">Download the two-way coverage sheet (CSV) </a></div>
+                                                <div class="dot-list">
+                                                    <ul>
+                                                        <li>These prices are estimates only, don't include VAT or other taxes.</li>
+                                                        <li>Actual prices are determined at the time you use the online service e.g. send an SMS message).</li>
+                                                        <li>We will bill you in either USD, EUR, INR, GBP or ZAR (depending on where you are). For your convenience you can choose to see this estimate in a different currency.</li>
+                                                        <li>Please read our Payment terms for more information on how billing works.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="steps-btn">
+                                            <li class="list-inline-item">
+                                                <button type="button" class="btn btn-primary-outline-none prev-step">Previous step</button>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <button type="button" class="btn btn-primary btn-info-full next-step">Create account</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="caribbean-tropics-bg py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 m-auto">
+                        <div class="cta text-center">
+                            <div class="title text-white mb-4">
+                                <h3>
+                                    Can we give you a personalized quotation?
+                                </h3>
+                            </div>
+                            <a href="#" class="btn btn-primary f-medium medium">Register an account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="iron-light-bg pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="title eerie-black-text mb-4">
+                            <h4>Visit our FAQs</h4>
+                        </div>
+                        <div class="title-desc mb-5">
+                            <div class="body dark-grey-text">
+                                <p>Visit our comprehensive FAQs section</p>
+                            </div>
+                            <div class="hyperlink">
+                                <a href="#">Visit FAQs</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="title eerie-black-text mb-4">
+                            <h4>Contact support</h4>
+                        </div>
+                        <div class="title-desc mb-5">
+                            <div class="body dark-grey-text">
+                                <p>Contact our support team and one of our agents will be in touch with you to answer any questions you have.</p>
+                            </div>
+                            <div class="hyperlink">
+                                <a href="#">Contact support</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="footer_new"></footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="assets/vendor/fontawesome/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.selectpicker').selectpicker();
+
+            $(function() {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
+
+            //Wizard
+            $('a[data-toggle="tab"]').on('show.bs.tab', function(e) {
+                var $target = $(e.target);
+                if ($target.parent().hasClass('disabled')) {
+                    return false;
+                }
+            });
+
+            $(".next-step").click(function(e) {
+                var $active = $('.nav-tabs li>.active');
+                $active.parent().next().find('.nav-link').removeClass('disabled');
+                nextTab($active);
+            });
+
+            $(".prev-step").click(function(e) {
+                var $active = $('.nav-tabs li>a.active');
+                prevTab($active);
+            });
+        });
+
+        function nextTab(elem) {
+            $(elem).parent().next().find('a[data-toggle="tab"]').click();
+        }
+
+        function prevTab(elem) {
+            $(elem).parent().prev().find('a[data-toggle="tab"]').click();
+        }
+
+        function myFunction(x) {
+            if (x.matches) { // If media query matches
+                $(".ct-tabs-mobile").click(function() {
+                    // $(this).next(".nav-tabs.modules-tabs").stop(true,true).slideToggle("fast"),
+                    $(".custom-tabs").toggleClass("opened");
+                    $(".ct-tabs-dropdown").toggleClass("opened");
+                });
+                $('.custom-tabs a').on('click', function() {
+                    var getText = $(this).text();
+                    $("#tab-title").text(getText);
+                });
+            } else {
+                $(".custom-tabs").show()
+            }
+        }
+
+        var x = window.matchMedia("(max-width: 992px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+    </script>
+</body>
+
+</html>

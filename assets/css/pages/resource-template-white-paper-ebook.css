@@ -1,0 +1,23 @@
+.post-block .card-deck .card { border: 0; border-radius: 0; margin-bottom: 40px; }
+
+.post-block .card-deck .card .card-img-top { border-radius: 0; }
+
+.post-block .card-deck .card .card-body .card-title a { font-weight: 500; font-style: normal; font-size: 20px; line-height: 25px; color: #17191d; }
+
+.post-block .card-deck .card .card-body .card-text p { margin-bottom: 0; }
+
+.post-block .card-deck .card .card-footer { background-color: transparent; border-radius: 0; border: 0; }
+
+.post-block .card-deck .card .card-footer .post-clock { display: flex !important; }
+
+.post-block .card-deck .card .card-footer .post-clock img { max-width: initial; }
+
+.dot-list ul { margin-bottom: 20px; }
+
+.dot-list ul li { font-family: "Open Sans", sans-serif; }
+
+@media (max-width: 767px) { .post-block .card-deck { display: flex; flex-direction: column; } }
+
+/*IE Only CSS */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .post-block .card-deck .card .card-footer .post-clock { display: block !important; } }
+/*# sourceMappingURL=resource-template-white-paper-ebook.css.map */

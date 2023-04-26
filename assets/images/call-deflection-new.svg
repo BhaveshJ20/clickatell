@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="66.182" viewBox="0 0 64 66.182">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.062" y1="-3.115" x2="1.062" y2="-3.115" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#29c3ec"/>
+      <stop offset="0.989" stop-color="#8ac858"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.428" y1="-14.721" x2="0.572" y2="-14.721" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_3828" data-name="Group 3828" transform="translate(-8.849 -352.637)">
+    <g id="Group_3827" data-name="Group 3827" transform="translate(10.764 360.654)">
+      <g id="Group_3825" data-name="Group 3825" transform="translate(0 0)">
+        <path id="Path_9266" data-name="Path 9266" d="M52.026,433.143H29.037a12.349,12.349,0,1,1,0-24.7H61.878a10.639,10.639,0,1,0,0-21.279H38.889v-1.71H61.878a12.35,12.35,0,1,1,0,24.7H29.037a10.639,10.639,0,1,0,0,21.279H52.026Z" transform="translate(-16.687 -385.455)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_3826" data-name="Group 3826" transform="translate(28.166 39.66)">
+        <path id="Path_9267" data-name="Path 9267" d="M133.187,562.143l-1.209-1.209,5.964-5.964-5.964-5.964,1.209-1.209,7.173,7.173Z" transform="translate(-131.978 -547.797)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Phones-Mobile-Devices_Phone_phone" data-name="Phones-Mobile-Devices / Phone / phone" transform="translate(8.849 352.637)">
+      <g id="Group_11" data-name="Group 11" transform="translate(0 0)">
+        <g id="phone">
+          <g id="Shape_67" data-name="Shape 67">
+            <path id="Path_9268" data-name="Path 9268" d="M29.617,379.257a4.678,4.678,0,0,1-2.589-.777,61.907,61.907,0,0,1-17.4-17.4,4.707,4.707,0,0,1,.6-5.916l1.537-1.539a3.382,3.382,0,0,1,4.778,0l2.807,2.8a3.387,3.387,0,0,1,0,4.778h0l-.464.465a62.206,62.206,0,0,0,7.556,7.558l.462-.463a3.377,3.377,0,0,1,4.778,0l2.805,2.805a3.377,3.377,0,0,1,0,4.778l-1.538,1.539A4.706,4.706,0,0,1,29.617,379.257ZM14.149,354.1a1.906,1.906,0,0,0-1.352.559L11.258,356.2a3.237,3.237,0,0,0-.41,4.069,60.453,60.453,0,0,0,16.989,16.989,3.245,3.245,0,0,0,4.07-.408l1.538-1.539a1.911,1.911,0,0,0,0-2.7L30.64,369.8a1.912,1.912,0,0,0-2.7,0l-1.406,1.406-.514-.423a63.645,63.645,0,0,1-8.692-8.694l-.422-.513,1.4-1.408a1.918,1.918,0,0,0,0-2.706l-2.806-2.8A1.905,1.905,0,0,0,14.149,354.1Z" transform="translate(-8.849 -352.637)" fill="#000c30"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Messages-Chat-Smileys_Messages-Speech-Bubbles_messages-bubble-square" data-name="Messages-Chat-Smileys / Messages-Speech-Bubbles / messages-bubble-square" transform="translate(50.148 397.647)">
+      <g id="Group_105" data-name="Group 105" transform="translate(0 0)">
+        <g id="messages-bubble-square">
+          <g id="Shape_421" data-name="Shape 421">
+            <path id="Path_9269" data-name="Path 9269" d="M184.289,558.049v-4.86h-4.621a1.77,1.77,0,0,1-1.768-1.768V538.645a1.77,1.77,0,0,1,1.768-1.768h19.165a1.77,1.77,0,0,1,1.768,1.768v12.777a1.77,1.77,0,0,1-1.768,1.768h-9.685Zm-4.621-19.462a.058.058,0,0,0-.058.057v12.777a.058.058,0,0,0,.058.057H186v2.442l2.441-2.442h10.393a.057.057,0,0,0,.057-.057V538.645a.057.057,0,0,0-.057-.057Z" transform="translate(-177.901 -536.877)" fill="#000c30"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

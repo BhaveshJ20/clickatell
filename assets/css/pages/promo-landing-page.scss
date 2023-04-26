@@ -1,0 +1,106 @@
+/* ODD AND EVEN BLOCK CSS */
+
+.odd-even-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+}
+
+.odd-even-wrap {
+    .even-block {
+        width: 50%;
+    }
+}
+
+.odd-even-wrap {
+    .even-block.even-block-banner-img {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        min-height: 340px;
+        height: 100%;
+        .even-block-content {
+            padding: 80px 60px;
+            max-width: 685px;
+            height: 100%;
+        }
+    }
+}
+
+.odd-even-wrap {
+    .odd-block {
+        width: 50%;
+        padding: 60px 100px;
+    }
+}
+
+.odd-even-wrap {
+    .odd-block {
+        .odd-left {
+            max-width: 450px;
+            float: right;
+        }
+    }
+}
+
+.title-with-cion {
+    i {
+        padding-top: 6px;
+        width: 60px;
+        vertical-align: top;
+    }
+}
+
+.promo-welcome-text {
+    margin-bottom: 76px;
+}
+
+.promo-list {
+    margin: 20px 0;
+    .title-desc {
+        .body1 {
+            p {
+                font-family: "Open Sans", sans-serif;
+                font-weight: 600;
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .odd-even-wrap {
+        .even-block.even-block-banner-img {
+            min-height: 365px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .promo-welcome-text {
+        margin-bottom: 46px;
+    }
+    .odd-even-wrap {
+        display: block;
+        .even-block {
+            width: 100%;
+            .even-block-content {
+                max-width: 100%;
+            }
+        }
+        .even-block.even-block-banner-img {
+            min-height: 300px;
+        }
+        .odd-block {
+            width: 100%;
+            padding: 60px 50px;
+            .odd-left {
+                max-width: 100%;
+                float: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260.455" height="346.029" viewBox="0 0 260.455 346.029">
+  <defs>
+    <filter id="Rectangle_7389" x="43.721" y="0" width="202.701" height="346.029" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3694" data-name="Group 3694" transform="translate(-1184.348 -2608.379)">
+    <g transform="matrix(1, 0, 0, 1, 1184.35, 2608.38)" filter="url(#Rectangle_7389)">
+      <rect id="Rectangle_7389-2" data-name="Rectangle 7389" width="184.701" height="328.029" rx="24" transform="translate(52.72 6)" fill="#e2e6eb"/>
+    </g>
+    <path id="Path_7279" data-name="Path 7279" d="M1440.537,146.658h-13.926a3.4,3.4,0,0,0-3.6,3.15h0c0,4.7-4.357,8.51-9.733,8.51H1340.9c-5.375,0-9.732-3.81-9.732-8.51h0a3.4,3.4,0,0,0-3.6-3.15h-13.926c-10.572,0-19.142,7.494-19.142,16.739V441.929c0,9.245,8.57,16.739,19.142,16.739h126.9c10.572,0,19.142-7.494,19.142-16.739V163.4C1459.679,154.152,1451.109,146.658,1440.537,146.658Z" transform="translate(-47.77 2475.687)" fill="#fff"/>
+    <path id="Path_7354" data-name="Path 7354" d="M1698.459,232.549c-55.92-48.127-55.024-100.9-53.755-114.314a4.83,4.83,0,0,1,3.551-4.125c32.669-9.439,47.445-20.757,52.573-25.54a3.372,3.372,0,0,1,4.541,0c5.6,5.193,21.744,17.911,52.323,25.62a4.849,4.849,0,0,1,3.738,4.179c1.262,13.635,1.964,66.213-53.769,114.177A7.157,7.157,0,0,1,1698.459,232.549Z" transform="translate(-372.821 2588.897)" fill="none" stroke="#000c30" stroke-miterlimit="10" stroke-width="6" opacity="0.88"/>
+    <path id="Rectangle_7427" data-name="Rectangle 7427" d="M0,0H176.151a12.937,12.937,0,0,1,12.937,12.937V26.78a12.937,12.937,0,0,1-12.937,12.937H16.031A16.031,16.031,0,0,1,0,23.686V0A0,0,0,0,1,0,0Z" transform="translate(1184.348 2710.138)" fill="#2cc4ec" opacity="0.7"/>
+    <path id="Rectangle_7428" data-name="Rectangle 7428" d="M16.031,0H181.158A12.937,12.937,0,0,1,194.1,12.937V26.78a12.937,12.937,0,0,1-12.937,12.937H0a0,0,0,0,1,0,0V16.031A16.031,16.031,0,0,1,16.031,0Z" transform="translate(1442.303 2806.841) rotate(-180)" fill="#8cc63f" stroke="#8cc63f" stroke-miterlimit="10" stroke-width="5" opacity="0.7"/>
+  </g>
+</svg>

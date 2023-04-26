@@ -1,0 +1,202 @@
+.banner-wrap {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 580px;
+    margin-bottom: 60px
+}
+
+.sub-banner-wrap {
+    .main-title-desc {
+        &.display-1 {
+            h1 {
+                color: #17191d;
+            }
+        }
+    }
+}
+
+.case-study-wrap {
+    margin-bottom: 60px;
+}
+
+.case-study-block {
+    &.case-study-title {
+        h1 {
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+            color: #17191D;
+        }
+    }
+}
+
+.article-box-up {
+    margin-top: -160px;
+    position: relative;
+}
+
+.post-author {
+    h6 {
+        margin-bottom: 0;
+    }
+}
+
+.case-study-block {
+    .case-study-title.display-1 {
+        h1 {
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+        }
+    }
+    .post-clock {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+
+.post-block {
+    .card-deck {
+        .card {
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 40px;
+            .card-img-top {
+                border-radius: 0;
+            }
+            .card-body {
+                .card-title {
+                    a,
+                    h4 {
+                        font-weight: 500;
+                        font-style: normal;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #17191d;
+                    }
+                }
+                .card-text {
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .card-footer {
+                background-color: transparent;
+                border-radius: 0;
+                border: 0;
+                .post-clock {
+                    display: -webkit-box !important;
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                    img {
+                        max-width: initial;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dot-list {
+    ul {
+        margin-bottom: 20px;
+        li {
+            font-family: "Open Sans", sans-serif;
+        }
+    }
+}
+
+.owl-carousel {
+    &.logo-slider {
+        .owl-item {
+            text-align: center;
+            img {
+                width: auto;
+                display: inline-block;
+            }
+        }
+    }
+    .owl-nav {
+        margin-top: 40px;
+        button.owl-prev,
+        button.owl-next {
+            background-color: #233659;
+            color: #ffffff;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-box-border-radius: 50%;
+            -o-border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            outline: none;
+            span {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 26px;
+                line-height: 18px;
+                font-weight: 400;
+                display: inline-block;
+            }
+            &:hover {
+                background-color: #2CC4EC;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .article-box-up {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .case-study-block {
+        &.case-study-title {
+            h1 {
+                font-size: 34px;
+                line-height: 44px;
+            }
+        }
+    }
+    .post-block {
+        .card-deck {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+    }
+    .banner-wrap {
+        min-height: 300px;
+    }
+}
+
+
+/*IE Only CSS */
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .case-study-block {
+        .post-clock {
+            display: block !important;
+        }
+    }
+    .post-block {
+        .card-deck {
+            .card {
+                .card-footer {
+                    .post-clock {
+                        display: block !important;
+                    }
+                }
+            }
+        }
+    }
+}

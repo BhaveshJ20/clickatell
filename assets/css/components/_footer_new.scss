@@ -1,0 +1,200 @@
+.footer-logo {
+    margin-bottom: 48px;
+}
+
+.facebook-brands-w{
+    background: url('../images/social-icons/facebook-brands.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    transition: all 450ms ease-in-out;
+    &:hover{
+        background-position: bottom;
+    }
+} 
+
+.twitter-brands-w{
+    background: url('../images/social-icons/twitter-brands.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    transition: all 450ms ease-in-out;
+    &:hover{
+        background-position: bottom;
+    }
+} 
+
+.linkedin-brands-w{
+    background: url('../images/social-icons/linkedin-brands.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    transition: all 450ms ease-in-out;
+    &:hover{
+        background-position: bottom;
+    }
+}
+
+.youtube-play-brands-w{
+    background: url('../images/social-icons/youtube-play-brands.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    transition: all 450ms ease-in-out;
+    &:hover{
+        background-position: bottom;
+    }
+}
+
+.footer-list {
+    .footer-list-title {
+        h6 {
+            font-size: 20px;
+            font-weight: 700;
+            font-style: normal;
+        }
+    }
+    ul {
+        li {
+            display: block;
+            margin-bottom: 10px;
+            a {
+                font-size: 16px;
+                font-weight: 400;
+                color: #ffffff;
+                &:hover {
+                    color: #2CC4EC;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    margin-bottom: 48px;
+}
+
+.social-media {
+    ul {
+        li {
+            a {
+                width: 30px;
+                height: 30px;
+                border: 0px;
+                border-radius: 0px;
+            }
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+footer {
+    .social-media {
+        ul {
+            li {
+                margin: 0 15px;
+                a {
+                    width: auto;
+                    height: auto;
+                    color: #ffffff;
+                    border: 0px;
+                    border-radius: 0px;
+                    &:hover {
+                        background-color: transparent;
+                        color: #2CC4EC;
+                    }
+                }
+            }
+        }
+    }
+    .social-media-icon {
+        ul {
+            li {
+                margin: 0 15px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.cookies-text {
+    background-color: #001966;
+    padding: 15px 0px;
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    width: 100%;
+    p {
+        font-size: 12px;
+        margin: 0;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+    .footer-list {
+        .footer-list-title{
+            min-height: 50px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-list {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-logo {
+        display: none;
+    }
+    footer {
+        .social-media {
+            margin-bottom: 48px;
+            ul {
+                li {
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+        .social-media-icon {
+            margin-bottom: 48px;
+            ul {
+                li {
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        div>div {
+            margin-bottom: 10px;
+        }
+    }
+}

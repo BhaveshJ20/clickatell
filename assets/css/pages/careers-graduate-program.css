@@ -1,0 +1,119 @@
+.post-block .card-deck .card { border: 0; border-radius: 0; margin: 15px; }
+
+.post-block .card-deck .card .card-img-top { border-radius: 0; }
+
+.post-block .card-deck .card .card-body .card-title a { font-weight: 500; font-style: normal; font-size: 20px; line-height: 25px; color: #17191d; }
+
+.post-block .card-deck .card .card-footer { background-color: transparent; border-radius: 0; border: 0; }
+
+/* ODD AND EVEN BLOCK CSS */
+.odd-even-wrap { display: flex; flex: 1 0 0%; }
+
+.odd-even-wrap .even-block { width: 50%; }
+
+.odd-even-wrap .even-block .even-block-content { padding: 0px 60px; max-width: 685px; height: 100%; }
+
+.odd-even-wrap .pt-landing-banner { background-repeat: no-repeat; background-position: center center; background-size: cover; min-height: 570px; height: 100%; }
+
+.odd-even-wrap .even-block-banner-img { background-repeat: no-repeat; background-position: top left; background-size: cover; min-height: 630px; height: 100%; }
+
+.odd-even-wrap .odd-block { width: 50%; padding: 0px 100px; }
+
+.odd-even-wrap .odd-block .odd-left { max-width: 450px; float: right; }
+
+.img-overlay-botm .card { border: none; border-radius: 0rem; }
+
+.img-overlay-botm .card .card-img { border-radius: 0rem; }
+
+.img-overlay-botm .card .card-img-overlay { /* ff3.6+ */ /* safari4+,chrome */ /* safari5.1+,chrome10+ */ /* opera 11.10+ */ /* ie10+ */ background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%); /* w3c */ top: auto; }
+
+.img-overlay-botm .card .card-text { width: 50%; }
+
+.img-overlay-botm .card .card-text span { font-size: 10px; }
+
+.our-office-wrap { padding: 50px 0; }
+
+.ct-office-map-wrap .ct-office-map { position: relative; }
+
+.ct-office-map-wrap .ct-office-map .pin-block { position: absolute; cursor: pointer; }
+
+.ct-office-map-wrap .ct-office-map .pin-block:hover .ct-office-name { display: block; animation: fadeIn 1s; }
+
+.pin { width: 26px; height: 26px; display: block; position: relative; }
+
+.pin::before, .pin::after { content: ""; position: absolute; top: 0; left: 0; right: 0; width: 26px; height: 26px; background-color: rgba(44, 196, 236, 0.8); border-radius: 50%; display: inline-block; }
+
+.pin::before { animation: 1.5s ease 0s normal none infinite running bubble-ripple; }
+
+.pin-one { left: 47%; bottom: 25px; }
+
+.pin-two { left: 44%; bottom: 34%; }
+
+.pin-three { left: 12%; bottom: 47%; }
+
+.pin-four { left: 20%; bottom: 61%; }
+
+.ct-office-name { background-color: #2CC4EC; padding: 5px 10px; font-size: 12px; color: #ffffff; border-radius: 3px; height: auto; position: relative; top: -10px; left: 15px; z-index: 2; display: none; }
+
+.list1 ul li { margin-bottom: 20px; }
+
+.list1 ul li a { font-size: 16px; color: #17191D; }
+
+@media (min-width: 992px) { .odd-even-wrap .odd-block { border-bottom: 70px solid #ffffff; } }
+
+@media (max-width: 1024px) { .odd-even-wrap .odd-block { padding: 0px 50px; }
+  .pin-one { left: 50%; }
+  .pin-two { left: 46%; }
+  .pin-three { left: 12%; }
+  .pin-four { left: 20%; } }
+
+@media (max-width: 992px) { .odd-even-wrap { display: block; }
+  .odd-even-wrap .even-block { width: 100%; }
+  .odd-even-wrap .even-block .even-block-content { max-width: 100%; }
+  .odd-even-wrap .even-block.even-block-banner-img { min-height: 450px; }
+  .odd-even-wrap .pt-landing-banner { min-height: 450px; }
+  .odd-even-wrap .odd-block { width: 100%; padding: 60px 50px; }
+  .odd-even-wrap .odd-block .odd-left { max-width: 100%; float: none; }
+  .pin { width: 20px; height: 20px; }
+  .pin::before { width: 20px; height: 20px; }
+  .pin::after { width: 20px; height: 20px; }
+  .pin-four { left: 22%; }
+  .pin-three { left: 13%; } }
+
+@media (max-width: 768px) { .odd-even-wrap .odd-block { padding: 60px 40px; }
+  .even-odd-wrap .even-block { padding: 60px 40px; } }
+
+@media (max-width: 767px) { .post-block .card-deck { display: flex; flex-direction: column; }
+  .post-content-list .post-content-img.large { min-height: 260px; }
+  .list1 ul li { text-align: center; }
+  .hyperlink { text-align: center; } }
+
+@media (max-width: 576px) { .odd-even-wrap .odd-block { padding: 60px 15px; } }
+
+@media (max-width: 480px) { .ct-office-name { top: -5px; left: 5px; }
+  .pin { width: 16px; height: 16px; }
+  .pin::before { width: 16px; height: 16px; }
+  .pin::after { width: 16px; height: 16px; }
+  .pin-one { bottom: 15px; }
+  .pin-four { left: 21%; } }
+
+/*IE Only CSS */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .post-block .card-deck .card .card-footer .post-clock { display: block !important; }
+  .odd-even-wrap .odd-block .odd-left.d-flex { display: block !important; padding-top: 13%; } }
+
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@keyframes bubble-ripple { 0% {
+    transform: scale(1.4);
+    opacity: .55;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; }
+  25% {
+    transform: scale(1.4);
+    opacity: 0.55;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; } }
+/*# sourceMappingURL=careers-graduate-program.css.map */

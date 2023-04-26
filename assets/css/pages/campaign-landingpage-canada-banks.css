@@ -1,0 +1,329 @@
+@font-face { font-family: 'Minion Pro'; src: url("../../fonts/MinionPro-Regular.eot"); src: url("../../fonts/MinionPro-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/MinionPro-Regular.woff2") format("woff2"), url("../../fonts/MinionPro-Regular.woff") format("woff"), url("../../fonts/MinionPro-Regular.ttf") format("truetype"), url("../../fonts/MinionPro-Regular.svg#MinionPro-Regular") format("svg"); font-weight: normal; font-style: normal; font-display: swap; }
+
+.oxford-blue-bg { background-color: #000C30; }
+
+.oxford-blue-text { color: #000C30; }
+
+.iron-dark-bg { background-color: #333436; }
+
+.iron-light-bg { background-color: #f4f9ff; }
+
+.btn { font-family: 'Open Sans', sans-serif; font-size: 14px; border-radius: 6px; }
+
+.btn-primary { background-color: #000C30; border: 1px solid #000C30; color: #ffffff; }
+
+.btn-primary:hover, .btn-primary.hover { background-color: #233659; border-color: #233659; color: #ffffff; }
+
+.btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:not(:disabled):not(.disabled):active { background-color: #17365C; border-color: #425E81; color: #ffffff; }
+
+.btn { font-family: 'Open Sans', sans-serif; border-radius: 6px; }
+
+.form-control { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 400; color: #17191D; border-radius: 6px; border: 2px solid transparent; box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.28); }
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #17191D; }
+
+.form-control::-moz-placeholder { /* Firefox 19+ */ color: #17191D; }
+
+.form-control:-ms-input-placeholder { /* IE 10+ */ color: #17191D; }
+
+.form-control:focus { color: #000839; box-shadow: none; border-color: #000839; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label, .custom_checkbox [type="checkbox"]:checked + label { color: #ffffff; font-family: 'Open Sans', sans-serif; padding-left: 20px; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:before, .custom_checkbox [type="checkbox"]:checked + label:before { content: ""; position: absolute; left: 0; top: 2px; width: 16px; height: 16px; background-color: #ffffff; border: 1px solid #ffffff; border-radius: 3px; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:after, .custom_checkbox [type="checkbox"]:checked + label:after { content: ""; position: absolute; top: 2px; left: 0px; margin: auto; width: 16px; height: 16px; background-color: #000c30; border: 1px solid #000c30; transition: all 0.2s; border-radius: 3px; color: #ffffff; }
+
+.custom_checkbox [type="checkbox"]:checked + label:after { content: ""; background: url(../../images/icons/checkmark-blue.svg) no-repeat center center; display: block; text-align: center; width: 16px; height: 16px; background-color: #ffffff; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:after { opacity: 0; transform: scale(0); }
+
+.custom_checkbox [type="checkbox"]:checked + label i:before { content: ""; position: absolute; top: 5px; left: 10px; margin: auto; width: 6px; height: 12px; border: solid #ffffff; border-width: 0 2px 2px 0; transform: rotate(45deg); transition: all 0.2s; z-index: 1; }
+
+.form-control.is-valid, .was-validated .form-control:valid { background-size: calc(0.55em + 1.375rem) calc(0.55em + 0.375rem); background-image: none; }
+
+.form-control.is-invalid, .was-validated .form-control:invalid { background-size: calc(0.55em + 1.375rem) calc(0.55em + 0.375rem); border-color: #ff5801 !important; color: #ff5801; background-image: none; }
+
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label { color: #4a4e57; }
+
+.was-validated .form-control:valid, .form-control.is-valid { background-image: none; }
+
+.was-validated .form-group { position: relative; }
+
+.was-validated .form-control:invalid ~ .invalid-feedback { display: table; width: 100%; }
+
+.was-validated .form-control:invalid ~ .invalid-feedback span { font-size: 75%; display: table-cell; vertical-align: middle; }
+
+.was-validated .form-control:invalid ~ .invalid-feedback i { background-image: none !important; background-repeat: no-repeat; background-position: right center; display: table-cell; width: 8px; height: 8px; vertical-align: middle; }
+
+.valid-tooltip, .invalid-tooltip { top: calc(100% - 0.6em); left: 0px; }
+
+.invalid-tooltip { background-color: #ff5801 !important; }
+
+.valid-tooltip::before { content: ""; position: absolute; top: -14px; left: 6px; border-width: 7px; border-style: solid; border-color: transparent transparent #28a746 transparent; }
+
+.invalid-tooltip::before { content: ""; position: absolute; top: -14px; left: 6px; border-width: 7px; border-style: solid; border-color: transparent transparent #ff5801 transparent; }
+
+.sub-banner-wrap .main-title-desc.has-paragraph-body2 p { color: #ffffff; }
+
+.campaign-canada-banner { background-image: url(../../images/canada-landing-banner-bg.png); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative; }
+
+.campaign-canada-banner .main-title-desc.display-1 h1 { color: #8CC63F; }
+
+.campaign-canada-banner .main-title-desc.has-h2 h2 { font-weight: 700; color: #ffffff; }
+
+.campaign-canada-banner .main-title-desc.has-h2 h2 span { font-weight: 400; }
+
+.campaign-canada-banner .main-title-desc.has-h3 h3 { font-weight: 400; color: #ffffff; }
+
+.campaign-canada-banner .main-title-desc.has-paragraph-body2 p { color: #ffffff; }
+
+.campaign-canada-banner .main-title-desc .copy-text { color: #ffffff; }
+
+.campaign-canada-banner .blue-check-list ul li { color: #ffffff; }
+
+.msg-chat-bg { background-image: url(../../images/msg-icon-bg.png); background-repeat: no-repeat; background-position: center center; background-size: cover; margin: 0 auto; padding: 40px; max-width: 515px; }
+
+.msg-chat-bg .main-title-desc { font-family: 'Open Sans', sans-serif; }
+
+.msg-chat-bg .main-title-desc.has-h3 h3 { font-weight: 600; color: #ffffff; }
+
+.msg-chat-bg .main-title-desc.has-paragraph-body p { font-weight: 300; color: #ffffff; }
+
+.msg-chat-bg .btn-reverse-gradient { border-radius: 40px; }
+
+.msg-chat-bg .on-demand-text p { font-family: 'Open Sans', sans-serif; font-size: 20px; line-height: 34px; }
+
+.post-block .card-deck .card { border: 0; border-radius: 0; margin: 15px; }
+
+.post-block .card-deck .card .card-img-top { border-radius: 0; }
+
+.post-block .card-deck .card .card-body .card-title a { font-weight: 500; font-style: normal; font-size: 20px; line-height: 25px; color: #17191d; }
+
+.post-block .card-deck .card .card-footer { background-color: transparent; border-radius: 0; border: 0; }
+
+.article-wrap { position: relative; z-index: 1; }
+
+.article-wrap::before { content: ""; background-color: #f4f9ff; height: 100px; z-index: -1; display: inline-block; position: absolute; top: 0; left: 0; right: 0; }
+
+.article-wrap .video-article-box .open-popup-link .video-box-img { position: relative; }
+
+.article-wrap .video-article-box .open-popup-link .video-box-img img { width: 100%; }
+
+.article-wrap .video-article-box .open-popup-link .video-box-img .play-icon { position: absolute; top: 50%; left: 0; right: 0; width: 78px; height: 78px; margin: -39px auto auto; }
+
+.video-article-box { margin: 0 0 40px 0px; position: relative; min-height: calc(100% - 40px); }
+
+.video-article-box .video-box-img img { width: 100%; }
+
+.video-article-box .video-box-text { flex: 1 1 auto; height: calc(100% - 40px); }
+
+.video-article-box .video-box-text .title1-desc.has-h4 h4 { font-weight: 700; font-style: normal; font-size: 16px; line-height: 20px; color: #4A4E57; }
+
+.video-article-box a { min-height: calc(100% - 40px); }
+
+.ct-form-wrap { position: relative; z-index: 1040; }
+
+.ct-form-wrap::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 60px; display: block; z-index: -1; background-color: #ffffff; }
+
+.ct-form-wrap .ct-form-box { box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15); }
+
+.ct-form-wrap .ct-form-box .title-desc.has-h2 h2 { color: #ffffff; font-weight: 700; }
+
+.ct-form-wrap .ct-form-box .custom_checkbox label { font-family: 'Open Sans', sans-serif; color: #ffffff; font-weight: 600; }
+
+.ct-form-wrap .ct-form-box .custom_checkbox label a { color: #ffffff; text-decoration: underline; }
+
+.ct-form-wrap .ct-form-box .custom_checkbox label a:hover { text-decoration: none; }
+
+.ct-form-wrap .ct-form-box .btn { font-weight: 600; }
+
+.ct-form-wrap .ct-form-success { box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.15); }
+
+.ct-form-wrap .ct-form-success p { font-size: 26px; line-height: 40px; }
+
+.ct-form-wrap .ct-form-success p a { font-weight: 600; }
+
+.post-content-list { padding: 0 0 40px 0px; }
+
+.post-content-list .post-content-thumb-img { margin-bottom: 30px; }
+
+.post-content-list .post-content-img { background-repeat: no-repeat; background-position: center center; background-size: cover; min-height: 260px; height: 100%; margin-bottom: 30px; }
+
+.post-content-list .post-content-img.large { min-height: 438px; }
+
+.post-content-list .post-content-img.small { min-height: 180px; }
+
+.post-content-list .post-content-title { margin-bottom: 0.75rem; }
+
+.post-content-list .post-content-title a { font-weight: 500; font-style: normal; font-size: 20px; line-height: 25px; color: #17191d; }
+
+.post-content-list .post-content-title h3 { font-size: 20px; line-height: 25px; color: #000C30; }
+
+.post-content-list .post-content-title h4 { font-weight: 500; font-style: normal; font-size: 16px; line-height: 25px; color: #17191d; }
+
+.post-content-list .post-content-text { margin-bottom: 20px; }
+
+.post-content-list .popup-youtube .chat-video-block .post-content-img { position: relative; }
+
+.post-content-list .popup-youtube .chat-video-block .post-content-title h3 { margin-bottom: 0.75rem; }
+
+.post-content-list .popup-youtube .hyperlink { color: #2cc4ec; }
+
+.post-content-list .popup-youtube:hover .hyperlink { color: #2cc4ec; text-decoration: underline; }
+
+.hyperlink span::after { content: ""; background-image: url("../../images/icons/streamline-icon-arrow-right-1@24x24.svg"); background-repeat: no-repeat; background-position: right center; display: inline-block; width: 5px; height: 8px; padding-left: 15px; }
+
+.check-list ul li, .check-list-white ul li, .blue-check-list ul li, .dot-list ul li, .list1 ul li { font-family: 'Open Sans', sans-serif; }
+
+.title-desc.has-h3 h3 { color: #000C30; }
+
+/***MagnificPopup***/
+.mfp-bg { z-index: 1051; }
+
+.mfp-wrap { z-index: 1052; }
+
+.our-platforms-category-video .ct-video { min-height: 464px; }
+
+.ct-video { position: relative; height: 100%; }
+
+.ct-video .popup-youtube { display: block; }
+
+button.mfp-close { outline: none; }
+
+.play-btn { position: absolute; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; z-index: 5; cursor: pointer; text-align: center; }
+
+.play-btn span { width: 72px; height: 72px; line-height: 72px; text-align: center; display: block; position: relative; }
+
+.play-btn span::before { content: ""; position: absolute; top: 0; left: -6px; right: 0; width: 72px; height: 72px; background-color: rgba(44, 196, 236, 0.8); border-radius: 50%; display: inline-block; z-index: -1; animation: 1.5s ease 0s normal none infinite running bubble-ripple; }
+
+.play-btn span:after { content: ""; position: absolute; top: 0; left: -6px; right: 0; width: 72px; height: 72px; background-color: rgba(44, 196, 236, 0.8); border-radius: 50%; display: inline-block; z-index: -1; }
+
+.play-btn span img { margin-left: -3px; }
+
+.connect-msg-bg { background-image: url(../../images/connect-msg-bg.svg); background-repeat: no-repeat; background-position: center center; background-size: contain; height: 100%; padding: 60px 0px; }
+
+.connect-msg-bg .title-desc { color: #ffffff; }
+
+.connect-msg-bg .title-desc.has-h2 h2 { text-transform: uppercase; }
+
+.connect-msg-bg .title-desc.has-paragraph-body p { color: #ffffff; margin-bottom: 0; }
+
+.ct-understand-wrap .title1-desc.has-h2 h2 { font-weight: 700; color: #ffffff; }
+
+.ct-understand-wrap .title1-desc.has-h3 h3 { font-weight: 400; color: #ffffff; }
+
+.ct-understand-wrap .title1-desc.has-paragraph-body p { color: #ffffff; }
+
+.ct-understand-wrap .title-curve { opacity: 0.2; }
+
+.ct-understand-wrap .post-content-list .post-content-title h3 { color: #ffffff; }
+
+.title-gradient { text-transform: uppercase; color: #ffffff; display: inline-block; padding: 10px 15px; }
+
+.title-gradient h2 { font-weight: 700; margin-bottom: 0rem; }
+
+.business-under-attack .attack-icon-bg { position: relative; z-index: 1; }
+
+.business-under-attack .attack-icon-bg::before { content: ""; background-image: url(../../images/icons/chat-big-icon.svg); background-repeat: no-repeat; background-position: left top; display: inline-block; width: 100px; height: 92px; position: absolute; left: -50px; top: -45px; z-index: -1; }
+
+.bank-logo ul { margin: 0 -20px; }
+
+.bank-logo ul li { list-style: none; float: left; width: calc(100%/5); padding: 0 20px; }
+
+.bank-logo img { width: auto; }
+
+.transaction-secure { position: relative; z-index: 1; }
+
+.transaction-secure::before { content: ""; display: block; position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 95px; background-color: #000C30; z-index: -1; }
+
+.copyright { font-family: 'Open Sans', sans-serif; }
+
+.popup-form .modal-content { background-color: #2CC4EC; border: 0px; box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15); border-radius: 15px; }
+
+.popup-form .modal-header { border-bottom: 0px; }
+
+.popup-form .modal-header .close { color: #ffffff; font-family: 'Open Sans', sans-serif; font-size: 2.5rem; font-weight: 600; text-shadow: none; opacity: 1; padding: 0.5rem 1rem; }
+
+.popup-form .modal-title { color: #ffffff; }
+
+.popup-form .modal-body .form-group { margin-bottom: 1.5rem; }
+
+.popup-form .modal-body .form-control { box-shadow: none; }
+
+.popup-form .modal-body .custom_checkbox { padding-left: 2px; }
+
+.popup-form .modal-footer { border-top: 0px; justify-content: center; padding: 1rem 1rem 2.5rem; }
+
+.popup-form .custom_checkbox [type="checkbox"]:not(:checked) + label, .popup-form .custom_checkbox [type="checkbox"]:checked + label { padding-left: 30px; color: #000C30; }
+
+.popup-form .custom_checkbox [type="checkbox"]:not(:checked) + label a, .popup-form .custom_checkbox [type="checkbox"]:checked + label a { color: #000C30; font-weight: 600; text-decoration: underline; }
+
+.popup-form .custom_checkbox [type="checkbox"]:not(:checked) + label a:hover, .popup-form .custom_checkbox [type="checkbox"]:checked + label a:hover { text-decoration: none; }
+
+.popup-form .custom_checkbox [type="checkbox"]:not(:checked) + label:before, .popup-form .custom_checkbox [type="checkbox"]:checked + label:before { width: 20px; height: 20px; }
+
+.popup-form .custom_checkbox [type="checkbox"]:not(:checked) + label:after, .popup-form .custom_checkbox [type="checkbox"]:checked + label:after { width: 20px; height: 20px; }
+
+@media (min-width: 576px) { .popup-form .modal-dialog { max-width: 877px; } }
+
+@media (min-width: 768px) { .ct-form-success-left { max-width: 170px; margin: 0 auto; width: 100%; padding-right: 20px; } }
+
+@media (min-width: 992px) { .campaign-canada-banner { min-height: 700px; }
+  .campaign-canada-banner .banner-left { padding-bottom: 50px; }
+  .campaign-canada-banner .banner-right img { max-width: 90%; }
+  .first-welcome-copy { max-width: 95%; margin: 0 auto; } }
+
+@media (min-width: 1024px) { .console-portal-block { padding-left: 40px; }
+  .msg-chat-bg { background-size: contain; min-height: 460px; padding: 40px 60px; } }
+
+@media (min-width: 1200px) { .campaign-canada-banner .banner-right { padding-right: 95px; } }
+
+@media screen and (max-width: 1280px) and (max-height: 950px) and (min-height: 769px) and (orientation: landscape) { .msg-chat-bg { background-size: cover; background-color: #000C30; } }
+
+@media screen and (max-width: 1280px) and (max-height: 800px) and (min-height: 769px) and (orientation: landscape) { .msg-chat-bg { background-size: cover; background-color: #000C30; } }
+
+@media (min-width: 1366px) { .container { max-width: 1360px; }
+  .ct-form-wrap .custom_checkbox [type="checkbox"]:not(:checked) + label, .ct-form-wrap .custom_checkbox [type="checkbox"]:checked + label { font-size: 13px; } }
+
+@media (max-width: 1200px) { .msg-chat-bg { min-height: 530px; } }
+
+@media (max-width: 1024px) { .msg-chat-bg { background-size: contain; padding: 40px 20%; max-width: 90%; } }
+
+@media (max-width: 992px) { .campaign-canada-banner { background-image: none; }
+  .msg-chat-bg { max-width: 100%; }
+  .whatsapp-img-round { padding: 0px; }
+  .wt-group-icon { text-align: center; }
+  .whatsapp-conv { text-align: center; }
+  .business-under-attack .attack-icon-bg { display: inline-block; position: relative; z-index: 1; }
+  .business-under-attack .attack-icon-bg::before { content: ""; left: -50px; top: -35px; width: 80px; transform: scaleX(-1); }
+  .bank-logo ul li { width: calc(100%/3); } }
+
+@media (max-width: 768px) { .popup-form .modal.show .modal-dialog { padding-left: 15px; padding-right: 15px; } }
+
+@media (max-width: 767px) { .post-block .card-deck { display: flex; flex-direction: column; }
+  .main-title-desc.has-h2 h2 { font-size: 43px; line-height: 54px; }
+  .title1-desc.has-h2 h2 { font-size: 34px; line-height: 45px; }
+  .msg-chat-bg { padding: 40px; } }
+
+@media (max-width: 576px) { .business-under-attack .attack-icon-bg::before { content: ""; left: -35px; top: -20px; width: 60px; }
+  .msg-chat-bg { background-color: #000C30; }
+  .banner-right { text-align: center; }
+  .banner-right img { max-width: 300px; width: 100%; margin: 0 auto; } }
+
+/*IE Only CSS */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .post-block .card-deck .card .card-footer .post-clock { display: block !important; } }
+
+@keyframes bubble-ripple { 0% {
+    transform: scale(1.4);
+    opacity: .55;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; }
+  25% {
+    transform: scale(1.4);
+    opacity: 0.55;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; } }
+/*# sourceMappingURL=campaign-landingpage-canada-banks.css.map */

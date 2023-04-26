@@ -1,0 +1,164 @@
+.oxford-blue-bg { background-color: #000C30; }
+
+.oxford-blue-text { color: #000C30; }
+
+.iron-dark-bg { background-color: #232425; }
+
+.iron-light-bg { background-color: #f4f9ff; }
+
+.hyperlink span::after { content: ""; background-image: url("../../images/icons/streamline-icon-arrow-right-1@24x24.svg"); background-repeat: no-repeat; background-position: right center; display: inline-block; width: 5px; height: 8px; padding-left: 15px; }
+
+.check-list ul li, .check-list-white ul li, .blue-check-list ul li, .dot-list ul li, .list1 ul li { font-family: 'Open Sans', sans-serif; }
+
+.btn { font-size: 14px; font-weight: 400; border-radius: 6px; }
+
+.btn-primary { background-color: #000C30; border: 1px solid #000C30; color: #ffffff; }
+
+.btn-primary:hover, .btn-primary.hover { background-color: #233659; border-color: #233659; color: #ffffff; }
+
+.btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:not(:disabled):not(.disabled):active { background-color: #17365C; border-color: #425E81; color: #ffffff; }
+
+.form-control { font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; color: #17191D; border-radius: 6px; border: 2px solid #ffffff; }
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #17191D; }
+
+.form-control::-moz-placeholder { /* Firefox 19+ */ color: #17191D; }
+
+.form-control:-ms-input-placeholder { /* IE 10+ */ color: #17191D; }
+
+.form-control:focus { color: #000839; box-shadow: none; border-color: #000839; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label, .custom_checkbox [type="checkbox"]:checked + label { color: #ffffff; font-family: 'Open Sans', sans-serif; padding-left: 30px; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:before, .custom_checkbox [type="checkbox"]:checked + label:before { content: ""; position: absolute; left: 0; top: 2px; width: 16px; height: 16px; background-color: #ffffff; border: 1px solid #000C30; border-radius: 3px; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:after, .custom_checkbox [type="checkbox"]:checked + label:after { content: ""; position: absolute; top: 2px; left: 0px; margin: auto; width: 16px; height: 16px; background-color: #000c30; border: 1px solid #000c30; transition: all 0.2s; border-radius: 3px; color: #ffffff; }
+
+.custom_checkbox [type="checkbox"]:checked + label:after { content: ""; background: url(../../images/icons/checkmark-blue.svg) no-repeat center center; display: block; text-align: center; width: 16px; height: 16px; background-color: #ffffff; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:after { opacity: 0; transform: scale(0); }
+
+.custom_checkbox [type="checkbox"]:checked + label i:before { content: ""; position: absolute; top: 5px; left: 10px; margin: auto; width: 6px; height: 12px; border: solid #ffffff; border-width: 0 2px 2px 0; transform: rotate(45deg); transition: all 0.2s; z-index: 1; }
+
+.post-content-list { padding: 0 0 40px 0px; }
+
+.post-content-list .post-content-thumb-img { margin-bottom: 30px; }
+
+.post-content-list .post-content-img { background-repeat: no-repeat; background-position: center center; background-size: cover; min-height: 260px; height: 100%; margin-bottom: 30px; }
+
+.post-content-list .post-content-img.large { min-height: 438px; }
+
+.post-content-list .post-content-img.small { min-height: 180px; }
+
+.post-content-list .post-content-title { margin-bottom: 0.75rem; }
+
+.post-content-list .post-content-title a { font-weight: 500; font-style: normal; font-size: 20px; line-height: 25px; color: #17191d; }
+
+.post-content-list .post-content-title h3 { font-weight: 500; font-style: normal; font-size: 20px; line-height: 25px; color: #000C30; }
+
+.post-content-list .post-content-title h4 { font-weight: 500; font-style: normal; font-size: 16px; line-height: 25px; color: #17191d; }
+
+.post-content-list .post-content-text { margin-bottom: 20px; }
+
+.post-block .card-deck .card { border: 0; border-radius: 0; margin: 15px; }
+
+.post-block .card-deck .card .card-img-top { border-radius: 0; }
+
+.post-block .card-deck .card .card-body .card-title a { font-weight: 500; font-style: normal; font-size: 20px; line-height: 25px; color: #17191d; }
+
+.post-block .card-deck .card .card-footer { background-color: transparent; border-radius: 0; border: 0; }
+
+.mesa-banner-wrap .main-title-desc.display-1 h1 { font-size: 45px; line-height: 70px; color: #ffffff; margin-bottom: 40px; }
+
+.mesa-banner-wrap .main-title-desc.display-1 h1 span { display: block; font-weight: 400; }
+
+.mesa-banner-wrap .main-title-desc.has-paragraph-body p { font-family: "neue-haas-grotesk-text"; font-size: 24px; line-height: 30px; font-weight: 400; font-style: normal; color: #2CC4EC; }
+
+.mesa-banner-wrap .main-title-desc .main-title-bor { max-width: 470px; width: 100%; height: 3px; }
+
+.mesa-banner-wrap .post-content-list .post-content-thumb-img img { background-color: rgba(44, 196, 236, 0.1); padding: 18px; width: 200px; }
+
+.mesa-banner-wrap .post-content-list .post-content-title h3 { color: #ffffff; font-weight: 700; }
+
+.mesa-banner-wrap .post-content-list .post-content-title p { font-size: 20px; line-height: 30px; color: #8CC63F; }
+
+.chat-commerce-form-wrap { padding: 80px 0px; }
+
+.chat-commerce-content .main-title-desc.has-h2 h2 { font-family: 'Open Sans', sans-serif; font-size: 25px; line-height: 32px; font-weight: 700; color: #000C30; margin-bottom: 40px; }
+
+.chat-commerce-content .main-title-desc.has-h3 h3 { line-height: 32px; font-weight: 700; color: #000C30; }
+
+.chat-commerce-content .main-title-desc.has-paragraph-body p { font-size: 18px; line-height: 32px; }
+
+.ct-form-box { box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15); }
+
+.ct-form-box .main-title-desc.has-h3 h3 { color: #000C30; font-weight: 700; }
+
+.ct-form-box .custom_checkbox label { font-family: 'Open Sans', sans-serif; color: #ffffff; }
+
+.ct-form-box .custom_checkbox label a { color: #ffffff; text-decoration: underline; }
+
+.ct-form-box .custom_checkbox label a:hover { text-decoration: none; }
+
+.ct-form-success { box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.15); }
+
+.ct-form-success p { font-size: 26px; line-height: 40px; }
+
+.ct-form-success p a { font-weight: 600; }
+
+.webinar-presenters-wrap { padding: 80px 0px 40px; }
+
+.webinar-presenters-wrap .main-title-desc.has-h2 h2 { font-size: 35px; color: #000C30; }
+
+.webinar-presenters-wrap .post-content-list .post-content-thumb-img img { background-color: rgba(44, 196, 236, 0.1); padding: 24px; width: 284px; }
+
+.webinar-presenters-wrap .post-content-list .post-content-title h3 { font-size: 30px; line-height: 45px; color: #000C30; font-weight: 700; }
+
+.webinar-presenters-wrap .post-content-list .post-content-title h3 span { font-size: 20px; line-height: 30px; font-weight: 400; color: #8CC63F; }
+
+.webinar-presenters-wrap .post-content-list .post-content-text p { font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 30px; }
+
+.copyright { font-family: 'Open Sans', sans-serif; font-size: 16px; }
+
+@media (min-width: 992px) { .ct-managers-wrap .col-lg-3 { flex: 0 0 20%; max-width: 20%; }
+  .chat-commerce-form-wrap { position: relative; z-index: 1; }
+  .chat-commerce-form-wrap::before { content: ""; position: absolute; top: 0; left: 0; right: 0; display: block; z-index: -1; background-color: #000C30; height: 50px; }
+  .chat-commerce-content { padding-right: 100px; }
+  .ct-form-box { margin-top: -100px; position: relative; } }
+
+@media (min-width: 1200px) { .container { max-width: 1190px; } }
+
+@media (min-width: 1366px) { .container { max-width: 1370px; } }
+
+@media (max-width: 992px) { .mesa-banner-wrap .main-title-desc.display-1 h1 { font-size: 35px; line-height: 50px; }
+  .mesa-banner-wrap .main-title-desc.has-paragraph-body p { font-size: 20px; }
+  .mesa-banner-wrap .main-title-desc .main-title-bor { margin: 0 auto; } }
+
+@media (max-width: 767px) { .post-block .card-deck { display: flex; flex-direction: column; }
+  .webinar-presenters-wrap { padding: 80px 0px 40px; }
+  .webinar-presenters-wrap .main-title-desc.has-h2 h2 { font-size: 30px; }
+  .webinar-presenters-wrap .post-content-list .post-content-title h3 { font-size: 20px; } }
+
+@media (max-width: 576px) { .mesa-banner-wrap .main-title-desc.display-1 h1 { font-size: 25px; line-height: 50px; }
+  .mesa-banner-wrap .main-title-desc.has-paragraph p { font-size: 20px; }
+  .agenda-text [class*="col-"] { flex: 0 0 100%; max-width: 100%; } }
+
+/*IE Only CSS */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .post-block .card-deck .card .card-footer .post-clock { display: block !important; }
+  .odd-even-wrap .odd-block .odd-left.d-flex { display: block !important; padding-top: 8%; } }
+
+/* ======================================== MAC OS Only CSS ======================================== */
+
+@keyframes bubble-ripple { 0% {
+    transform: scale(1.4);
+    opacity: .55;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; }
+  25% {
+    transform: scale(1.4);
+    opacity: 0.55;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; } }
+/*# sourceMappingURL=MESA_insurance_webinar.css.map */
